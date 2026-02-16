@@ -38,7 +38,7 @@ def init_db():
     conn.close()
 
 
-# ---------------- SERVICES ----------------
+# ------------- SERVICES -----------
 
 def add_category(name):
     conn = get_connection()
