@@ -5,7 +5,7 @@ from datetime import datetime
 
 DB_NAME = "expenses.db"
 
-# -------------------- DATABASE -------------
+# --------------- DATABASE -------------
 
 def get_connection():
     return sqlite3.connect(DB_NAME)
