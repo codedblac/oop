@@ -91,7 +91,7 @@ def fetch_transactions():
     return df
 
 
-# -------------------- REPORTS --------------------
+# ----------------REPORTS --------------------
 
 def monthly_summary():
     df = fetch_transactions()
