@@ -118,7 +118,7 @@ def category_summary():
     print(summary)
 
 
-# -------------------- CHARTS --------------------
+# ---------------- CHARTS --------------------
 
 def plot_category_pie():
     df = fetch_transactions()
